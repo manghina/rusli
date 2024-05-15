@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Sweep",
+    "slug": "rn-sweepit-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#011820"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ai.sweepit.sweep",
+      "infoPlist": {
+        "UIViewControllerBasedStatusBarAppearance": true,
+        "NSPhotoLibraryUsageDescription": "This app requires access to the photo library to upload images.",
+        "NSCameraUsageDescription": "This app requires access to the camera to take and upload photos."
+      },
+      "buildNumber": "24",
+      "appStoreUrl": "https://apps.apple.com/it/app/sweepit/id6479641704"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#011820"
+      },
+      "package": "ai.sweepit.sweep",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=ai.sweepit.sweep"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/HelveticaNeue.ttf",
+            "./assets/fonts/HelveticaNeue-Bold.ttf",
+            "./assets/fonts/HelveticaNeue-CondensedBlack.ttf",
+            "./assets/fonts/HelveticaNeue-CondensedBold.ttf"
+          ]
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "141cc367-8a77-4848-a6d3-5b011966c0a4"
+      }
+    }
+  }
+}
